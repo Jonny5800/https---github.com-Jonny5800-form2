@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: url(https://i.pinimg.com/originals/58/c2/e1/58c2e12093eed58e6c7fdcb29c988781.jpg);
     background-position: top center;
+    background-attachment: fixed;
 }
 
 .container {
@@ -32,10 +33,16 @@ body {
 }
 
 .centre-column {
+    padding-left: 5%;
     grid-column-start: 2;
     grid-column-end: 3;
     border: 1px solid red;
     min-width: 250px;
+    background-color: rgba(187, 187, 187, 0.726);
+}
+
+.locations {
+    column-count: 2;
 }
 
 .right-column {

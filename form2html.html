@@ -8,23 +8,27 @@
 
 <body>
     <div class="container">
-        <div class="header">header</div>
+        <div class="header">
+            <h1>Free track experience competition form</h1>
+            <h2>Fill the form for a chance to win</h2>
+        </div>
         <div class="left-column">
-            <!--left column not in use-->left</div>
+            <!--left column not in use-->
+        </div>
         <div class="centre-column">
 
             <!-- Everything in the centre-->
             <form action="https://sd.keepcalms.com/i/keep-calm-wait-and-see.png">
 
-                <h1>First Name</h1>
-                <input type="text" placeholder="Enter first name">
+                <h3 class="h2">First Name</h3>
+                <input type="text" placeholder="Enter first name" style="width: 100%;">
 
 
-                <h1>Last Name</h1>
-                <input type="text" placeholder="Enter last name">
+                <h3 class="h2">Last Name</h3>
+                <input type="text" placeholder="Enter last name" style="width: 100%;">
 
 
-                <h1>Gender</h1>
+                <h3 class="h2">Gender</h3>
                 <label for="male">
                     <input type="radio" name = "gender" id="male">Male
                 </label><br>
@@ -39,18 +43,18 @@
                 </label>
 
 
-                <h1>E-mail</h1>
-                <input type="text" placeholder="Enter your E-mail">
+                <h3 class="h2">E-mail</h3>
+                <input type="text" placeholder="Enter your E-mail" style="width: 100%;">
 
 
-                <h1>Age</h1>
-                <input type="number" placeholder="Select your age">
+                <h3 class="h2">Age</h3>
+                <input type="number" placeholder="Select your age" style="width: 100%;">
 
 
-                <h1>Country of residence</h1>
+                <h3 class="h2">Country of residence</h3>
                 <div class="country">
                     <!--can add style= "width:200px" in the CSS-->
-                    <select>
+                    <select style="width: 100%;">
                         <option value="0">Select country:</option>
                         <option value="1">England</option>
                         <option value="2">Wales</option>
@@ -59,7 +63,7 @@
                     </select>
                 </div>
 
-                <h1>locations you can travel to</h1>
+                <h3 class="h2">Locations you can travel to</h3>
                 <label for="england-silverstone" class="locations">
                     <input type="checkbox" name="travel" id="england"> England, Silverstone
                 </label><br>
@@ -90,9 +94,13 @@
 
 
 
-                <h1>Why you think you should win</h1>
+                <h3 class="h2">Why you should be the winner</h3>
+                <label>
+                    <textarea name="why-win" id="text-box"  style="width: 100%;" placeholder=" Why I should be the winner... "></textarea>
+                </label>
+                <br>
 
-                <button type="submit">Click to submit your entry</button>
+                <button type="submit" style="width: 100%;">Click to submit your entry </button>
 
 
             </form>
